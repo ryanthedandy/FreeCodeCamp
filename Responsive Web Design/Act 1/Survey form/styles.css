@@ -1,7 +1,78 @@
 label[name="eval"]{
-  display: block;
-}
-
-label[name="name-info"]{
-  display: block;
-}
+  
+    display: block;
+    overflow:hidden;
+    border: 1px solid;
+    padding: 5 10 0  10; 
+  }
+  
+  label[name="name-info"]{
+    display: inline-block;
+    width: 30%; 
+  }
+  
+  select{
+    
+    background: #0a0a23;
+    color: white;
+    font-family: Tahoma;
+    width: 70%;
+  }
+  
+  input[type="submit"]
+  {
+    display: block;
+    width: 40%;
+    margin: 1em auto;
+    background-color: #3b3b4f;
+    border-color: white;
+    color:  white;
+    
+  }
+  
+  input[type="checkbox"]
+  { 
+    
+    vertical-align: middle;
+    float:right;
+    margin: 10 10 30 0;
+    
+  
+  }
+  
+  body{
+    
+    font-family: Tahoma;
+    margin: 0;
+    background:linear-gradient(#1b1b32, #2e255c);
+    color: #f5f6f7;
+  }
+  
+  h1, p, title{
+    text-align: center;
+  }
+  
+  p{
+    font-size: 10;
+  }
+  
+  input {
+    background: #0a0a23;
+    color: white;
+    font-family: Tahoma;
+  }
+  
+  h1 {
+    box-shadow: 0 0 20px 0  #2e255c;
+  }
+  
+  img[id="ibm"] {
+    float:left;
+    margin: 6 0 0 10;
+    padding: 0 0 0 10;
+  }
+  
+  img[id="comm"] {
+    float:right;
+    margin: 0 20 0 0;
+  }
